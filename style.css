@@ -115,3 +115,61 @@ button:hover {
     background-color: #0052a3;
     transform: scale(1.02);
 }
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #f8d7da;
+    border-radius: 6px;
+    border-left: 4px solid #dc3545;
+}
+
+.field-error {
+    border: 2px solid #dc3545 !important;
+    background-color: #fff8f8;
+}
+
+.success-message {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.credentials {
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0c5460;
+}
+
+.credentials strong {
+    color: #0c5460;
+}
+
+.auth-info {
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.auth-info a {
+    margin-left: 15px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.auth-info a:hover {
+    text-decoration: underline;
+}
